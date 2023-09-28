@@ -17,7 +17,8 @@ function Tempo (props){
      return {
          props:{
              staticDateString
-         }
+         },
+         revalidate: 1
      }
  }
  
